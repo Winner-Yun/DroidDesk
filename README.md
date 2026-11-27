@@ -322,14 +322,16 @@ DroidDesk v1.0.1 includes two purpose-built diagnostic and creation tools integr
 ![09 Secret Scanner](docs/screenshots/09_secret_scanner.png)
 
 #### 🔍 What You See on Screen
-- **Vulnerability Metric Badges:** Immediate severity summary: `0 Critical`, `0 High`, `2 Needs review`, `0 Informational`.
-- **Detected Secrets Table:** Detailed findings showing Severity (`REVIEW`), Key Name (`FIREBASE_API_KEY`), Environment (`Android Resource`), File (`strings.xml`), Line number (`63`), and matched Token.
-- **Deep Context & Remediation Inspector (Right Panel):**
-  - **Location & Environment:** File path breadcrumb with `Copy path`.
-  - **Full Token Value:** Complete exposed token string with `Copy token` button.
-  - **Syntax-Highlighted Code Snippet:** Context viewer centering on Line 63 of `strings.xml`.
-  - **Actionable Remediation Guidance:** Specific, practical security instructions: *"Restrict this Firebase API key in Google Cloud Console by Android application package name and SHA-1 certificate fingerprint, and limit to enabled APIs."*
-  - `Show in File Explorer` button.
+- **Vulnerability & Endpoint Metric Badges:** Immediate severity and target overview: `1 Critical`, `0 High`, `3 Needs review`, `18 Informational`, alongside `10 Base URLs` and `8 Endpoints`.
+- **Detected Secrets & Base URLs Table:** Comprehensive scan results table detailing:
+  - *Severity Levels:* Color-coded tags distinguishing `CRITICAL` (e.g. `PRIVATE_KEY_PEM`), `REVIEW` (e.g. `GOOGLE_API_KEY`, `FIREBASE_API_KEY`), and `INFO` (`API_BASE_URL`, `API_ENDPOINT`).
+  - *Key Names & Targets:* Identifies cryptographic keys, API credentials, endpoints, and target services.
+  - *Environments & Source Files:* Pinpoints occurrences across `DEX Bytecode` (`dex_strings.txt`), `Native Library` (`libapp_strings.txt`), and `Android Resource` (`strings.xml`).
+  - *Line Numbers & Masked Token Matches:* Direct line references with masked tokens for secure auditing.
+- **Deep Context & Base URL Inspector (Right Panel):**
+  - **Location & Environment:** Categorization (`API Base Endpoint / Service Target`), target file (`dex_strings.txt`), line number (`Line 74372`), and local inspection directory with `Copy path`.
+  - **Detected Base URL / Credential View:** Target endpoint inspection with one-click `Copy token` button.
+  - **Syntax-Highlighted Code Context:** Multi-line viewer centering on detected lines with line number gutter and one-click `Copy line`.
 
 #### Demo User Instructions
 1. Navigate to **Secret scanner** and click **Scan APK** (or select a local source folder).
