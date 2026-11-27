@@ -24,7 +24,7 @@ This guide provides simple, step-by-step instructions to install and start using
 
 ## 1. Installation
 
-1. Navigate to the `installer` folder or download [**DroidDesk-Setup-v1.0.1.exe**](installer/DroidDesk-Setup-v1.0.1.exe).
+1. Navigate to the `installer` folder or download [**DroidDesk-Setup-v1.0.2.exe**](installer/DroidDesk-Setup-v1.0.2.exe).
 2. Double-click the installer:
    - If Windows shows a blue prompt (**Windows protected your PC**), click **More info** and select **Run anyway**.
 3. Choose your installation folder (default: `C:\Program Files\DroidDesk`).

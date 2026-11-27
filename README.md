@@ -1,20 +1,21 @@
 # 📱 DroidDesk - Local Android Development & APK Analysis Companion
 
-[![Release](https://img.shields.io/badge/Release-v1.0.1-blue.svg)](installer/DroidDesk-Setup-v1.0.1.exe)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2064--bit-0078D6.svg)](installer/DroidDesk-Setup-v1.0.1.exe)
-[![Architecture](https://img.shields.io/badge/Architecture-x64-green.svg)](installer/DroidDesk-Setup-v1.0.1.exe)
-[![Android SDK](https://img.shields.io/badge/Android%20SDK-Emulator%20%26%20AVD-brightgreen.svg)](installer/DroidDesk-Setup-v1.0.1.exe)
+[![Release](https://img.shields.io/badge/Release-v1.0.2-blue.svg)](installer/DroidDesk-Setup-v1.0.2.exe)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2064--bit-0078D6.svg)](installer/DroidDesk-Setup-v1.0.2.exe)
+[![Architecture](https://img.shields.io/badge/Architecture-x64-green.svg)](installer/DroidDesk-Setup-v1.0.2.exe)
+[![Android SDK](https://img.shields.io/badge/Android%20SDK-Emulator%20%26%20AVD-brightgreen.svg)](installer/DroidDesk-Setup-v1.0.2.exe)
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)](LICENSE.txt)
 
 > **DroidDesk** is an all-in-one local desktop companion for Android developers, QA testers, and security researchers. Manage physical Android phones and Android SDK virtual emulators (AVDs) in one place, create custom virtual devices with an intuitive 4-step wizard, inspect APKs, audit permissions and signatures, mirror and record device screens at 60 FPS, scan for leaked credentials offline, and monitor real-time Logcat streams without cloud dependencies.
 
 ---
 
-## 📥 Downloads (Latest Release v1.0.1)
+## 📥 Downloads (Latest Release v1.0.2)
 
 | File | Version | Architecture | Size | SHA256 Checksum | Direct Download Link |
 | :--- | :---: | :---: | :---: | :---: | :--- |
-| **DroidDesk-Setup-v1.0.1.exe** | **1.0.1 (Latest)** | Windows x64 | ~218 MB | `17089bd0daddae2707d2c0cd...` | [⬇️ Download v1.0.1 Setup](installer/DroidDesk-Setup-v1.0.1.exe) |
+| **DroidDesk-Setup-v1.0.2.exe** | **1.0.2 (Latest)** | Windows x64 | ~89 MB | `3b4c4bc64dc438474ed360f2...` | [⬇️ Download v1.0.2 Setup](installer/DroidDesk-Setup-v1.0.2.exe) |
+| **DroidDesk-Setup-v1.0.1.exe** | 1.0.1 | Windows x64 | ~218 MB | `17089bd0daddae2707d2c0cd...` | [⬇️ Download v1.0.1 Setup](installer/DroidDesk-Setup-v1.0.1.exe) |
 | **DroidDesk-Setup-v1.0.0.exe** | 1.0.0 | Windows x64 | ~217 MB | `fee2f11b174fb6557a9da15a...` | [⬇️ Download v1.0.0 Setup](installer/DroidDesk-Setup-v1.0.0.exe) |
 
 *Full checksums for all installer packages are available in [installer/SHA256SUMS.txt](installer/SHA256SUMS.txt).*
@@ -24,7 +25,7 @@
 ## ⚡ Quick Start: Easy 3-Step Setup
 
 ### Step 1: Install DroidDesk
-1. Download **[DroidDesk-Setup-v1.0.1.exe](installer/DroidDesk-Setup-v1.0.1.exe)**.
+1. Download **[DroidDesk-Setup-v1.0.2.exe](installer/DroidDesk-Setup-v1.0.2.exe)**.
 2. Double-click the file to open the setup wizard.
 3. Follow the on-screen prompts to complete installation and create a desktop icon.
 4. Launch **DroidDesk** from your Desktop or Start Menu.

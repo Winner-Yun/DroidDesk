@@ -4,6 +4,17 @@ All notable changes to the DroidDesk application are documented in this file.
 
 ---
 
+## [1.0.2] - Optimized Installer & Enhanced Secret & Endpoint Scanner (Windows 64-bit)
+
+### 🚀 Highlights & Improvements
+- **Streamlined Distribution Package**: Reduced setup installer size to ~89 MB (~59% compression optimization) for faster downloading and lightweight deployments (`DroidDesk-Setup-v1.0.2.exe`).
+- **Deep Secret & Credential Leak Scanner**: Expanded scanning engine detecting critical private keys (`PRIVATE_KEY_PEM`), Google API credentials, and Firebase keys across compiled DEX Bytecode, Native Libraries (`libapp_strings`), and Android XML resources.
+- **Base URL & Endpoint Target Inspector**: Direct identification, categorization, and contextual line inspection of detected API endpoints and external service targets.
+- **Privacy & Security Audit Sanitization**: Added real-time token masking and data redaction safeguards in inspection views.
+- **Direct Installer Hash Verification**: Added verified SHA-256 checksum to `installer/SHA256SUMS.txt`.
+
+---
+
 ## [1.0.1] - Android Emulator & SDK Toolchain Manager (Windows 64-bit)
 
 ### 🚀 Highlights & New Features
